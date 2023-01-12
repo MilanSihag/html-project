@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Project File</title>
+<style>
+    body{background-color: peachpuff;}
+    button{font-size:25}
+    p{font-size:30;}
+    ol{font-size: 30;}
+    ul{font-size: 30;}
+    h1{font-size: 45;text-align: center;text-shadow:2px 2px 4px red;}
+</style>
+</head>
+<body>
+
+<pre style="font-size:60;background-color:red;font-family:snap itc">
+ FITNESS                                        <img src="f i logo.jpg" height="50" width="100">
+          CLUB</pre>
+<p style="text-align:right"><a href="project2.html"><button>About</button><button>Trainings</button><button>Timings</button></a><a href="project3.html"><button>Nutrition</button><button>Gallery</button></a>
+<table style="font-size:60;font-family:gigi;height:400;width:1200;">
+<tr>
+    <td><img src="p.y.m.gif" style="height:400;width:400;"></td>
+    <th><a href="regestration.html"><button onclick="alert('You will be directed to a new page')" style="font-size:40">/////////////////////////////////////////////////////////////////////Register Now</button></a></th>
+</tr>
+</table>
+<h1>Our Motto</h1>
+<p style="text-align:justify;background-color: burlywood;font-family:brush script mt,cursive;font-size:40;">We promise to provide best facilities.We provide
+ instructional programs such as spinning classes, yoga,
+ and martial arts, organized and impromptu team sports and 
+individual fitness opportunities such as cardiovascular training,
+ weight training, and swimming.</p>
+<img src="benifit.jpg" style="max-width: 100%;">
+<p style="text-shadow:2px 2px 4px green;font-size: 40;background-color: aqua;"><b><i>Benefits of joining :-</i></b>
+<ol style="type:1"><li>Exercise is great for reducing stress and anxiety.</li>
+<li>Exercise promotes better sleep.</li>
+<li>Exercise is good for your health.</li>
+<li>Boosting Your Self-Confidence.</li>
+</ol>
+<br>
+</p>
+
+<p style="background-color:orange;text-shadow:2px 2px 4px blue;">Latest Events</p>
+<p>
+<img src="event1.jpg">
+</p>
+<p style="background-color:black;text-justify: auto;padding-left:8px;padding-right:8px;padding-top:40px;color:white;">
+<img src="event2.jpg" style="float:left;height:550;width:800;"><b>Proud Winners Of The Excellent Gym In Community Involvement 2017</b><br>
+Organised by Smart Events at JW Marriott Hotel New Delhi.<br>
+Mr Harwinder Singh (MD) Fitness Just Received award in category Excellent Gym in Community Involvement.<br>
+Thanks to Smart Event & FEA for organising this big platform and our supportive Fitness Just Team & our members.<br> All werent possible without the support of all you loved ones.
+We promise that Fitness Just will keep up the name and keep rising in future.<br>
+Thanks all
+</p>
+<br><br><br><br><br><br><br>
+<hr>
+<div2 style="background-color:black;float: left;width: 1500;">
+    <ul style="type:circle;background-color: black;color: whitesmoke;">
+    <li>24x7 support</li>
+    <li><a href="mailto:milansihag11@gmail.com">For any query</a></li>
+    <li>Contact no. 907xxxxxx6</li>
+    <li>Address:xyz building,Rainbow Road, Model Town, Jalandhar, Punjab 144003</li>
+    </ul>
+    </div2>
+</body>
+</html>
