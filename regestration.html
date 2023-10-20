@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Here</title>
+        <style>
+            body{background-image: url('reg.jpg');background-size: cover;background-position: center;max-height: 100%;}
+            .end1{float: left;height: 300px;border-radius: 50px;}
+            .end{float: left;background-color: rgb(255, 113, 47);padding: 40px;border-radius: 50px;}
+            div{height: 300;width: 300;margin: 40px;text-align: center;display: block;}
+            p{font-size: 40px;}
+            .font1{font-size: 40px;border-radius: 10px;background-color: antiquewhite;}
+            .font{font-size: 40px;}
+            .font2{font-size: 30px;}
+            h1{font-size: 50px;text-shadow: 2px 3px 4px yellow;color:white;text-align: center;}
+        </style>
+    </head>
+    <body>
+        <h1>Register Here</h1>
+        <form style="color: aliceblue;">
+            <fieldset style="border-radius: 50px;padding: 30px;text-align: center;">
+                <legend class="font" style="font-size: 40;">Welcome</legend>
+            <label class="font" for="name">First Name:</label><input class="font2" id="name" type="text" placeholder="eg.Milan" autofocus><br>
+            <label class="font" for="name">Last Name:</label><input class="font2" id="name" type="text" placeholder="eg.Sihag"><br>
+            <label class="font" for="age">D.O.B.:</label><input class="font2" id="age" type="date"><br>
+            <label class="font" for="ph">Phone No.:</label><input class="font2" id="ph" type="password" required><br>
+            <label class="font" for="email">Email:</label><input class="font2" id="email" type="text" placeholder="eg.abc@gmail.com"><br>
+            <label class="font" for="add">Address:</label><textarea class="font2" id="add" type="text" placeholder="House/street/area/city" rows="2" cols="5">Enter here:</textarea><br>
+            <label class="font" for="doc">Please upload your documents here  </label><input id="doc" type="file" multiple><br>
+            <input class="font1" type="reset"><br><br><input class="font1" type="submit"><br>
+        </fieldset></form>
+        <div class="end"><p>Congratulations!!!<br> Now you are a part of P.Y.M.</p></div>
+        <div class="end1"><img src="p.y.m.gif" height="300" width="300"></div>
+    </body>
+</html>
