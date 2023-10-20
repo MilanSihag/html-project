@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Railway reservation system</title>
+        <style>
+            .left{font-size: 40;height: 1100px;width: 300px;float: left;display: block;background-color: antiquewhite;padding: 20px;}
+            .right{font-size: 40;height: auto;width: auto;float: right;padding: 20px;}
+            .container{font-size: 30;display: block;padding: 30px; margin: 30px;grid-auto-columns: 1fr 1fr 1fr;gap: 50px;}
+            .last1{float: left;background-color: yellow;text-align: center;padding: 30px;margin: 40px;border-radius: 20px;}
+            .last2{float: left;background-color: red;text-align: center;padding: 30px;margin: 40px;border-radius: 20px;}
+            .last3{float: left;background-color: greenyellow;text-align: center;padding: 30px;margin: 40px;border-radius: 20px;}
+            button{font-size: 30;}
+        </style>
+    </head>
+    <body bgcolor="aqua">
+        <div class="left">
+        <form><p style="font-size: 50;">Book Your Ticket Here</p>
+            <input placeholder="FROM:"><br><br>
+            <input placeholder="TO:"><br><br>
+            <input type="date"><br><br>
+            <input list="classes" placeholder="All classes">
+            <datalist id="classes">
+                <option value="economy class">economy</option>
+                <option value="First class">first class</option>
+            </datalist><br><br>
+            <input type="button" onclick="alert('Sorry no train on this route')" value="Find Trains">
+        </form></div>
+    <div class="right">
+        <button>Home</button>
+        <button>Meals</button>
+        <button>Holiday Packages</button>
+        <button>Service at station</button>
+        <a href="mailto:milansihag11@gmail.com"><button>Contact US</button></a>
+    </div>
+    <img src="wp4966992-minions-4k-wallpapers.jpg" alt="indian railways image" height="400px" width="1150px"><br>
+    <p style="font-size: 50;text-align: center;background-color: gray;text-shadow: 2px 3px 2px blue;">HOLIDAYS</p><br>
+    <div class="container">
+    <div class="last1"><h>Tourist Trains</h><p>Train 1<br>Train 2<br>Train 3</p></div>
+    <div class="last2"><h>International Packages</h><p>Package 1<br>Package 2<br>Package 3</p></div>
+    <div class="last3"><h>National Packages</h><p>Manali<br>Shimla<br>North-east</p></div></div>
+    </body>
+</html>
